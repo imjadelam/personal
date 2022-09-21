@@ -2,9 +2,10 @@
  * 参考@zmqcherish 的脚本
  * 1、删除发现页顶部热搜模块的广告条目
  * 2、删除发现页的轮播广告图(对比了广告和正常的数据，没有区别，所以直接删掉轮播图模块)
+ * 出处@https://raw.githubusercontent.com/fmz200/jd_scripts/master/others/weibo/weibo.conf
  * https://api.weibo.cn/2/search/(finder|container_timeline|container_discover)
  * 配置QX重写：在[rewrite_remote]下填写👇🏻配置
- * https://raw.githubusercontent.com/fmz200/jd_scripts/master/others/weibo/weibo.conf, tag=微博移除发现页广告@fmz200, update-interval=172800, opt-parser=false, enabled=true
+ * https://raw.githubusercontent.com/lam9399/personal/main/QuantumultX/weibo.conf, tag=微博移除发现页广告@fmz200, update-interval=172800, opt-parser=false, enabled=true
  */
 
 const url1 = '/search/finder';
